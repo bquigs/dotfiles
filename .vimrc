@@ -13,14 +13,8 @@ hi clear CursorLine
 hi CursorLine cterm=bold ctermbg=darkgrey ctermfg=NONE
 set cursorline
 
-" Dark grey ruler at 81 character width
-set colorcolumn=81
-highlight ColorColumn ctermbg=233
-set tw=80
-
 " Show line numbers
 set number
-set numberwidth=2
 set relativenumber
 hi CursorLine cterm=bold ctermbg=233
 
@@ -36,16 +30,6 @@ nnoremap <C-H> <C-W><C-H>
 
 " Turn on new-omni-completion
 set omnifunc=syntaxcomplete#Complete
-
-" Dark grey ruler at 81 character width
-set colorcolumn=81
-highlight ColorColumn ctermbg=233
-set tw=80
-
-" Show line numbers
-set number
-set relativenumber
-highlight LineNr ctermfg=150
 
 " Stop vim from creating auto backup
 set nobackup

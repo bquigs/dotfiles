@@ -9,4 +9,9 @@ setlocal shiftwidth=8
 setlocal sts=0
 setlocal noet
 
+" Dark grey ruler at 81 character width
+set colorcolumn=81
+highlight ColorColumn ctermbg=233
+set tw=80
+
 
