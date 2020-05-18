@@ -4,7 +4,7 @@
 
     * Use the following command to print this to the console
         $ cd /pathto/dotfiles
-        $ tree -a I '.git|plugged|autoload|.netrwhist' /pathto/dotfiles
+        $ tree -a -I '.git|plugged|autoload|.netrwhist' .
 
 ```bash
 dotfiles/
@@ -24,10 +24,10 @@ dotfiles/
 **Install Instructions:**
 
     * Using HTTPS
-    	$ git clone https://github.com/bcreeley/dotfiles.git && cd dotfiles
+    	$ git clone https://github.com/bquigs/dotfiles.git && cd dotfiles
     	$ sh ./install.sh
 
     * Using ssh key/passphrase
-        $ git clone git@github.com:bcreeley/dotfiles.git
+        $ git clone git@github.com:bquigs/dotfiles.git
         $ sh ./install.sh
 
