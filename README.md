@@ -23,9 +23,5 @@ dotfiles/
 
 **Install Instructions:**
 
-    * Using HTTPS
-    	> git clone https://github.com/bquigs/dotfiles.git && cd dotfiles && sh ./install.sh
-
-    * Using ssh key/passphrase
-        > git clone git@github.com:bquigs/dotfiles.git && cd dotfiles && sh ./install.sh
+    > git clone git@github.com:bquigs/dotfiles.git && cd dotfiles && sh ./install.sh
 
