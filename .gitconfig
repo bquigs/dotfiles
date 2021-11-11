@@ -1,0 +1,8 @@
+[core]
+        editor = vim
+        abbrev = 12
+
+[alias]
+        kernel-includes = describe --first-parent --contains --match=\"v*\" --exclude=\"*rc*\"
+        rc-includes = describe --first-parent --contains --match=\"v*\"
+        one = show -s --pretty='format:%h (\"%s\")'
